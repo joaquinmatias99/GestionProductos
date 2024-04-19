@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "af3748d0-44f2-4e26-a98a-b74d36ca6faa",
+		"name": "Productos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23485740"
+	},
+	"item": [
+		{
+			"name": "GetProductos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/productos"
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductoById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/productos/id/1"
+			},
+			"response": []
+		},
+		{
+			"name": "AddProducto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 7,\r\n    \"nombre\": \"Sandalias Teva\",\r\n    \"descripcion\": \"Cómodas para el verano\",\r\n    \"precio\": 50,\r\n    \"cantidad\": 12\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/productos"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProducto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:8080/productos/1"
+			},
+			"response": []
+		},
+		{
+			"name": "EditProducto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 2,\r\n        \"nombre\": \"Zapatillas Nike Air force 1\",\r\n        \"descripcion\": \"Ideal para salir\",\r\n        \"precio\": 250.0,\r\n        \"cantidad\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/productos/2"
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductosByNombre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/productos/nombre/Zapatillas Nike Air"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Productos por menor precio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/productos/precio/menor"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Productos por mayor precio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/productos/precio/mayor"
+			},
+			"response": []
+		}
+	]
+}

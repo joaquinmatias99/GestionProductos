@@ -13,3 +13,6 @@ INSERT INTO PRODUCTO (id, nombre, descripcion, precio, cantidad) VALUES (12, 'Bo
 INSERT INTO PRODUCTO (id, nombre, descripcion, precio, cantidad) VALUES (13, 'Zapatillas de running minimalistas', 'Para una experiencia de carrera natural', 70.00, 25);
 INSERT INTO PRODUCTO (id, nombre, descripcion, precio, cantidad) VALUES (14, 'Zapatos de escalada', 'Para precisión y soporte en escalada deportiva', 120.00, 15);
 INSERT INTO PRODUCTO (id, nombre, descripcion, precio, cantidad) VALUES (15, 'Sneakers de moda', 'Tendencia y comodidad en un solo producto', 80.00, 40);
+INSERT INTO PRODUCTO (id, nombre, descripcion, precio, cantidad) VALUES (16, 'Zapatillas Nike Air', 'Para salir comodo', 290.00, 10);
+INSERT INTO PRODUCTO (id, nombre, descripcion, precio, cantidad) VALUES (17, 'Zapatillas Nike Air', 'Solo talle 44 y con colores rojos', 290.00, 10);
+INSERT INTO PRODUCTO (id, nombre, descripcion, precio, cantidad) VALUES (18, 'Zapatillas Nike Air', 'Usadas', 20.00, 5);
